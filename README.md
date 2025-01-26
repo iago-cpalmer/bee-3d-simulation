@@ -29,9 +29,9 @@
 - **Unity ECS**: Efficient management of numerous interacting entities using Unity's Entity Component System.
 - **Multi-threading**: Using Unity DOTS to execute systems in parallel.
 - **Level of Detail (LOD)**: Dynamically adjusts model complexity based on distance from the camera for: textures, models & simulation.
-- **Mesh instancing **: Render all the repetitive meshes with instancing to highly increase rendering performance
-- **Animation Baking **: 3D animations are baked to textures to avoid calculations in CPU.
-- **Custom highly efficient ray-cast **: Created my own Ray-Cast algorithm to interact with Entities avoiding allocations, unnecessary checks and using more efficient math operations
+- **Mesh instancing**: Render all the repetitive meshes with instancing to highly increase rendering performance
+- **Animation Baking**: 3D animations are baked to textures to avoid calculations in CPU.
+- **Custom highly efficient ray-cast**: Created my own Ray-Cast algorithm to interact with Entities avoiding allocations, unnecessary checks and using more efficient math operations
 - **Vertex Compression**: Reduces memory usage by compressing vertex data by ~89%.
 - **Garbage Collection Optimization**: Minimizes unnecessary memory allocation for smoother gameplay.
 - **Procedural Loading**: Efficiently loads and unloads chunks to balance performance with immersion.
