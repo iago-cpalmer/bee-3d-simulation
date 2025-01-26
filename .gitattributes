@@ -1,0 +1,2 @@
+*.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Fonts/AppleGaramond-Bold[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
